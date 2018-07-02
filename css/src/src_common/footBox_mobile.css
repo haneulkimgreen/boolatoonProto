@@ -1,0 +1,28 @@
+/* YG_mobile max480 */
+ @media screen and (max-width:480px) {
+/* #footBox */
+    #footBox{width: 100%; height: 180px; background-color: #fff; position: relative; z-index: 200; padding: 20px; box-sizing: border-box; margin-top: -1px;}
+      #footBox>h2{display: none;}
+      .copyright{width: 100%; height: auto; float:left; margin-top: 60px;}
+        .copyright>li{font-size: 14px; line-height: 20px;}
+      .sns_wrap{position: absolute; width: 260px; height: auto; top: 0; left: 0; z-index: 201; margin-left: 20px; margin-top: 20px;}
+      .sns_wrap>li{width: 40px; height: 40px; margin-right: 15px; float: left;}
+      .sns_wrap>li:nth-child(5){margin-right: 0;}
+        .sns_wrap>li>a{display: block; width: 100%; height: 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100%;}
+        .sns_wrap>li:nth-child(1)>a{background-image: url("../../../img/logo/youtube_b.png");}
+        .sns_wrap>li:nth-child(2)>a{background-image: url("../../../img/logo/youku_b.png");}
+        .sns_wrap>li:nth-child(3)>a{background-image: url("../../../img/logo/facebook_b.png");}
+        .sns_wrap>li:nth-child(4)>a{background-image: url("../../../img/logo/weibo_b.png");}
+        .sns_wrap>li:nth-child(5)>a{background-image: url("../../../img/logo/twitter_b.png");}
+          .sns_wrap>li>a>span{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1;}
+      .foot_nav{display: none;}
+      .sns_wrap>li:nth-child(1)>a:hover,.sns_wrap>li:nth-child(1)>a:focus{background-image: url("../../../img/logo/youtube_c.png");}
+      .sns_wrap>li:nth-child(3)>a:hover,.sns_wrap>li:nth-child(3)>a:focus{background-image: url("../../../img/logo/facebook_c.png");}
+      .sns_wrap>li:nth-child(4)>a:hover,.sns_wrap>li:nth-child(4)>a:focus{background-image: url("../../../img/logo/weibo_c.png");}
+      .sns_wrap>li:nth-child(5)>a:hover,.sns_wrap>li:nth-child(5)>a:focus{background-image: url("../../../img/logo/twitter_c.png");}
+/* //#footBox */
+ }
+/* ----- YG_mobile max480 */
